@@ -1,0 +1,2 @@
+# bikeGears
+lein Clojure
