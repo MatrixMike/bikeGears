@@ -22,14 +22,16 @@
 ;; really want each item in list to be on separate line  
  ;; (printf "%3.3f   "  (sort (for [f fgear r rgear ] (/ f r)))  )
 ;; possibly use doseq or something to work over the list from 'sort'
-(println "test1")
+
 
 (doseq [arg *command-line-args*]
 (def ws1 (set arg))
 
-(printf "arg='%s'    \n" arg)
+;; (printf "arg='%s'    \n" arg)
 (println ws1)
  )
+ (println "test1")
 	)
-	
+	;; note arg and not args !!!
+  
 	
