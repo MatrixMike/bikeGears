@@ -24,11 +24,11 @@
 ;; possibly use doseq or something to work over the list from 'sort'
 
 
-(doseq [arg *command-line-args*]
-(def ws1 (set arg))
+(doseq [arg *command-line-args*](def ws1 (set arg))
 
-;; (printf "arg='%s'    \n" arg)
+;; 								(printf "arg='%s'    \n" arg)
 (println ws1)
+ (println "test2")
  )
  (println "test1")
 	)
